@@ -18,7 +18,12 @@ const Landing = () => {
         */}
       <div className="masker mt-50">
         {["we create", "eye opening", "presentations"].map((item, index) => (
-          <h1 key={index} className="font-['Test Founders Grotesk X-Cond-SmBd'] text-[7vmax] uppercase font-medium leading-[6vmax] tracking-tight"> {item} </h1>
+          <h1 key={index} className="font-['Test Founders Grotesk X-Cond-SmBd'] text-[7vmax] uppercase font-medium leading-[6vmax] tracking-tight flex"> 
+            {index === 1 && <div className='w-[9vmax] h-[6vmax] relative top-[0.5vmax] rounded-xl overflow-hidden'>
+              <img src="https://plus.unsplash.com/premium_photo-1714618822608-2e8d552946e0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=880" alt="" className='h-full w-full object-cover'/>
+            </div> }
+          {item} 
+          </h1>
         ))}
       </div>
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
 
-    const nav_btns = ["Services", "Our Work", "About us", "Insights", "Contact us"];
+    const nav_btns = ["Services", "Our_Work", "About_Us", "Insights", "Contact_Us"];
 
     return (
         <nav className='fixed z-[999] flex items-center justify-between w-full py-5 px-[4vw] font-["Test Founders Grotesk X-Cond-SmBd"]'>
