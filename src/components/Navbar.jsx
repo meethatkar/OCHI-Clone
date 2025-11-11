@@ -17,7 +17,7 @@ const Navbar = () => {
             </div>
             <div id="nav-btns" className='flex gap-10 '>
                 {nav_btns.map((item,i)=>(
-                    <a href="#" key={i} className={`text-lg font-normal ${i===(nav_btns.length-1) && "ml-40"}`}> {item} </a>
+                    <a href="#" key={i} className={`text-lg font-normal ${i===(nav_btns.length-1) && "ml-[10vmax]"}`}> {item} </a>
                 ))}
             </div>
         </nav>
