@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 body{
-  background-color: rebeccapurple
+  background-color: #18181B
 }
 
 /* Tailwind-friendly 3D rotate-on-hover for nav letters */

@@ -1,3 +1,5 @@
+import AboutUs from "./components/AboutUs"
+import Playful from "./components/Playful"
 import Landing from "./components/Landing "
 import Marquee from "./components/Marquee"
 import Navbar from "./components/Navbar"
@@ -9,6 +11,8 @@ function App() {
       <Navbar/>
       <Landing />
       <Marquee />
+      <AboutUs />
+      <Playful />
     </div>
   )
 }
