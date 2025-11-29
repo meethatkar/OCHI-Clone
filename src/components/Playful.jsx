@@ -15,7 +15,7 @@ const Playful = () => {
     },[]);
 
   return (
-    <div className='w-full h-screen'>
+    <div className='w-full h-screen cursor-grab'>
       <div className='h-full w-full flex items-center justify-center bg-[url("https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg")]
        bg-cover bg-center relative'>
         <div className='absolute top-1/2 left-1/2 -translate-1/2 flex items-center justify-center gap-[2vmax]'>
