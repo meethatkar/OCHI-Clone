@@ -22,3 +22,7 @@ body{
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+.ease-transition{
+  transition: all 0.5s ease;
+}

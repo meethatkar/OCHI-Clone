@@ -3,6 +3,7 @@ import Playful from "./components/Playful"
 import Landing from "./components/Landing "
 import Marquee from "./components/Marquee"
 import Navbar from "./components/Navbar"
+import Features from "./components/Features"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Marquee />
       <AboutUs />
       <Playful />
+      <Features />
     </div>
   )
 }
