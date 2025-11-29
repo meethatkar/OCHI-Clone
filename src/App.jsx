@@ -4,6 +4,7 @@ import Landing from "./components/Landing "
 import Marquee from "./components/Marquee"
 import Navbar from "./components/Navbar"
 import Features from "./components/Features"
+import RatingsCards from "./components/RatingsCards"
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <AboutUs />
       <Playful />
       <Features />
+      <RatingsCards />
     </div>
   )
 }
