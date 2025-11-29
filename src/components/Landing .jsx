@@ -2,7 +2,7 @@ import React from 'react'
 
 const Landing = () => {
   return (
-    <div className="textstructure h-screen w-full pt-1 px-[4vw] overflow-x-hidden">
+    <div className="textstructure h-screen w-full pt-1 px-[4vw] overflow-x-hidden no-scollbar">
       {/*  
       (TRY TO REMOVE pt-1 FROM textstructure, YOU"LL SEE THE ISSUE)
       🔹 Margin vs Padding (Gap Color Issue)
